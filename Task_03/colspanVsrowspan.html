@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ColSpan VS RowSpan</title>
+</head>
+<header align="center"><h1 center>HTML Table Colspan & Rowspan</h1></header>
+<hr>
+<body>
+    <table border="2">
+        <caption>Students Records</caption>
+        <thead>
+            <th>RollNumber</th>
+            <th>Name</th>
+            <th>Total_Marks</th>
+            <th>Grade</th>
+        </thead>
+        <tbody align="left">
+            <tr>
+                <td>1</td>
+                <td>Khan</td>
+                <td>500</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Naiza</td>
+                <td>850</td>
+                <td>A+</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br><br>
+
+    <table border="2">
+        <caption>Product List</caption>
+        <thead>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Extended</th>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>Hard Disk</td>
+                <td>1</td>
+                <td>500$</td>
+                <td>400$</td>
+            </tr>
+            <tr>
+                <td>Cd Drive</td>
+                <td>1</td>
+                <td>200$</td>
+                <td>500$</td>
+            </tr>
+            <tr>
+                <td>Cds</td>
+                <td>10</td>
+                <td>20$</td>
+                <td>50$</td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right" ><strong>Total Amount</strong></td>
+                <td><strong>950$</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+<table border="2">
+        <caption>Weather Station</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Station</th>
+                <th colspan="2">Temperature</th>
+                <th rowspan="2">Humidity</th>
+                <th rowspan="2">Weather</th>
+            </tr>
+            <tr>
+                <th>Min</th>
+                <th>Max</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>USA</td>
+                <td>24</td>
+                <td>19</td>
+                <td>60%</td>
+                <td>Cloudy</td>
+            </tr>
+            <tr>
+                <td>Germany</td>
+                <td>5</td>
+                <td>-1</td>
+                <td>70%</td>
+                <td>Rainy</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
